@@ -104,7 +104,7 @@
             this.secondaryList.Enabled = false;
             this.secondaryList.FormattingEnabled = true;
             this.secondaryList.Items.AddRange(new object[] {
-            "Glock-20",
+            "Glock-18",
             "USP-S",
             "P2000",
             "P250",
