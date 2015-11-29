@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CSGO_Key_Binds
+namespace CSGO_Buy_Binds_Generator
 {
     public partial class Form1 : Form
     {

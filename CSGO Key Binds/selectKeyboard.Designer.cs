@@ -1,4 +1,4 @@
-﻿namespace CSGO_Key_Binds
+﻿namespace CSGO_Buy_Binds_Generator
 {
     partial class selectKeyboard
     {

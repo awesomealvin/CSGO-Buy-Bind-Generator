@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CSGO_Key_Binds
+namespace CSGO_Buy_Binds_Generator
 {
     static class Program
     {

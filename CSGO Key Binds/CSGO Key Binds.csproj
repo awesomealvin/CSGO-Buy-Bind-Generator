@@ -7,8 +7,8 @@
     <ProjectGuid>{3506CD56-033A-479D-B760-7542D527AE3A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CSGO_Key_Binds</RootNamespace>
-    <AssemblyName>CSGO Key Binds</AssemblyName>
+    <RootNamespace>CSGO_Buy_Binds_Generator</RootNamespace>
+    <AssemblyName>CSGO Buy Binds Generator</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -71,6 +71,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="selectKeyboard.resx">
       <DependentUpon>selectKeyboard.cs</DependentUpon>
