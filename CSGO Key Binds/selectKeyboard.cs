@@ -26,14 +26,7 @@ namespace CSGO_Key_Binds
             RadioButton rr = (RadioButton)sender;
 
             hotkey = rr.Text;
-            /* switch (rr.Name)
-             {
-                 case ("buttonF1"):
-                     hotkey = "F1 ";
-                     break;
 
-
-            }*/
 
             label1.Text = hotkey;
         }
@@ -113,15 +106,8 @@ namespace CSGO_Key_Binds
                 case "buttonPause":
                     hotkey = "PAUSE-BREAK";
                     break;
-   
-
             }
             label1.Text = hotkey;
-
-
-
-
-
         }
     }
 }
