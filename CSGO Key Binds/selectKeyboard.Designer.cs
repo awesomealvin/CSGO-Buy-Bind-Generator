@@ -1506,7 +1506,7 @@
             this.buttonConfirmKey.Name = "buttonConfirmKey";
             this.buttonConfirmKey.Size = new System.Drawing.Size(75, 23);
             this.buttonConfirmKey.TabIndex = 130;
-            this.buttonConfirmKey.Text = "Confrim Key";
+            this.buttonConfirmKey.Text = "Confirm Key";
             this.buttonConfirmKey.UseVisualStyleBackColor = true;
             this.buttonConfirmKey.Click += new System.EventHandler(this.buttonConfirmKey_Click);
             // 

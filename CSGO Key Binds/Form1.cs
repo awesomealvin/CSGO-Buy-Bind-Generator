@@ -151,7 +151,7 @@ namespace CSGO_Buy_Binds_Generator
 
             if (nadeCheck3.Checked)
             {
-                smoke = "buy smoke; ";
+                smoke = "buy smokegrenade; ";
                 smokecost = 300;
             }
             else smoke = "";
@@ -610,7 +610,7 @@ namespace CSGO_Buy_Binds_Generator
 
         private void aboutClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            MessageBox.Show("CSGO Buy Bind Generator v3.2\nCreated by AwesomeAlvin");
+            MessageBox.Show("CSGO Buy Bind Generator v3.3\nCreated by AwesomeAlvin");
         }
 
         private void selectkeyButton_Click(object sender, EventArgs e)
