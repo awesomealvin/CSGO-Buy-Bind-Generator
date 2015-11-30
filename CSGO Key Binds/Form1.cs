@@ -28,18 +28,18 @@ namespace CSGO_Buy_Binds_Generator
         string gear3 = "";
         string gear4 = "";
         string grenades = "";
-        double riflecost = 0;
-        double smgcost = 0;
-        double heavycost = 0;
-        double secondarycost = 0;
-        double armortotalcost = 0;
-        double geartotalcost = 0;
-        double nadetotalcost = 0;
-        double primarytotalcost = 0;
-        double secondarytotalcost = 0;
-        double totalcost = 0;
+        int riflecost = 0;
+        int smgcost = 0;
+        int heavycost = 0;
+        int secondarycost = 0;
+        int armortotalcost = 0;
+        int geartotalcost = 0;
+        int nadetotalcost = 0;
+        int primarytotalcost = 0;
+        int secondarytotalcost = 0;
+        int totalcost = 0;
         bool otherkeys = false;
-        double nadelimit = 0;
+        int nadelimit = 0;
 
         private void generateButton_Click(object sender, EventArgs e)
         {
@@ -48,8 +48,8 @@ namespace CSGO_Buy_Binds_Generator
         
         private void gearCheck(object sender, EventArgs e)
         {
-            double defusercost = 0;
-            double zeuscost = 0;    
+            int defusercost = 0;
+            int zeuscost = 0;    
 
             if (gearCheck3.Checked)
             {
@@ -73,8 +73,8 @@ namespace CSGO_Buy_Binds_Generator
         }
         private void kevlarChecked(object sender, EventArgs e)
         {
-            double kevlarcost = 0;
-            double kevlarhelmcost = 0;
+            int kevlarcost = 0;
+            int kevlarhelmcost = 0;
 
             if (kevlarRadio.Checked)
             {
@@ -105,13 +105,13 @@ namespace CSGO_Buy_Binds_Generator
             string molotov = "";
             string flashbang2 = "";
             string incendiary = "";
-            double decoycost = 0;
-            double flashbangcost = 0;
-            double smokecost = 0;
-            double hecost = 0;
-            double molotovcost = 0;
-            double flashbang2cost = 0;
-            double incendiarycost = 0;
+            int decoycost = 0;
+            int flashbangcost = 0;
+            int smokecost = 0;
+            int hecost = 0;
+            int molotovcost = 0;
+            int flashbang2cost = 0;
+            int incendiarycost = 0;
 
             CheckBox cb = (CheckBox)sender;
             if (cb.Checked)
@@ -233,7 +233,7 @@ namespace CSGO_Buy_Binds_Generator
                     riflecost = 2700;
                     break;
                 case 1:
-                    rifles = "m4a1_silencer; ";
+                    rifles = "buy m4a1_silencer; ";
                     riflecost = 3100;
                     break;
                 case 2:
@@ -500,7 +500,7 @@ namespace CSGO_Buy_Binds_Generator
                     riflecost = 2700;
                     break;
                 case 1:
-                    rifles = "m4a1_silencer; ";
+                    rifles = "buy m4a1_silencer; ";
                     riflecost = 3100;
                     break;
                 case 2:
@@ -610,7 +610,7 @@ namespace CSGO_Buy_Binds_Generator
 
         private void aboutClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            MessageBox.Show("CSGO Buy Bind Generator v3.1\nCreated by AwesomeAlvin");
+            MessageBox.Show("CSGO Buy Bind Generator v3.2\nCreated by AwesomeAlvin");
         }
 
         private void selectkeyButton_Click(object sender, EventArgs e)
