@@ -249,7 +249,7 @@ namespace CSGO_Buy_Binds_Generator
                     riflecost = 2250;
                     break;
                 case 5:
-                    rifles = "buy sg008; ";
+                    rifles = "buy ssg08; ";
                     riflecost = 1700;
                     break;
                 case 6:
@@ -516,7 +516,7 @@ namespace CSGO_Buy_Binds_Generator
                     riflecost = 2250;
                     break;
                 case 5:
-                    rifles = "buy sg008; ";
+                    rifles = "buy ssg08; ";
                     riflecost = 1700;
                     break;
                 case 6:
@@ -610,7 +610,7 @@ namespace CSGO_Buy_Binds_Generator
 
         private void aboutClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            MessageBox.Show("CSGO Buy Bind Generator v3.3\nCreated by AwesomeAlvin");
+            MessageBox.Show("CSGO Buy Bind Generator v3.4\nCreated by AwesomeAlvin");
         }
 
         private void selectkeyButton_Click(object sender, EventArgs e)
@@ -693,7 +693,7 @@ namespace CSGO_Buy_Binds_Generator
                     otherkeys = true;
                     break;
                 case "Numpad /":
-                    keys = "kp_divide ";
+                    keys = "kp_slash ";
                     otherkeys = true;
                     break;
                 case "↑":
